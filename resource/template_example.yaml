@@ -1,0 +1,51 @@
+# Unity项目Assets目录结构模板
+# 使用2个空格表示缩进层级
+# 以'/'结尾的表示目录，包含'.'的表示文件
+
+Scripts/
+  Player/
+    PlayerController.cs
+    PlayerMovement.cs
+  UI/
+    UIManager.cs
+    MenuController.cs
+  Game/
+    GameManager.cs
+    ScoreManager.cs
+  Utils/
+    Constants.cs
+    Extensions.cs
+
+Prefabs/
+  Player/
+  UI/
+  Environment/
+  Effects/
+
+Materials/
+  Player/
+  Environment/
+  UI/
+
+Textures/
+  UI/
+  Environment/
+  Characters/
+
+Audio/
+  Music/
+  SFX/
+  Voice/
+
+Scenes/
+  MainMenu.unity
+  GameLevel.unity
+  Settings.unity
+
+Resources/
+  Configs/
+  Data/
+
+Plugins/
+
+StreamingAssets/
